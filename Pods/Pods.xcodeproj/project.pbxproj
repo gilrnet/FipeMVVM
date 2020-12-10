@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388F96485F322CF010F9CA6AF089C46 /* HTTPMethod.swift */; };
+		029032F0EDD147F9636323AB061B11F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		034F81AFFF4A87F9E96D42A330505DEE /* Pods-Fipe_MVVMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4577A5B03E048994F642A59EADCDE723 /* Pods-Fipe_MVVMTests-dummy.m */; };
 		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBFC4256A48F45E26B860D38479E52 /* Combine.swift */; };
 		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F4F5D5DA538F51C4D4F27C9F64377 /* OperationQueue+Alamofire.swift */; };
+		0A90EB0D06BFE35631B6332013634922 /* Pods-Fipe_MVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC9925B5CDB452C9B832D6E27EC6E46 /* Pods-Fipe_MVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D56592D36B34937ED7F5BB679B4752 /* Pods-Fipe_MVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64196C10ED39A0EED0AE5F4FF632716B /* Pods-Fipe_MVVM-dummy.m */; };
 		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B2325F6647FEE3C9209201FF5D4C2 /* AFError.swift */; };
 		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A0C3C3516540407583753D10DEB2B /* NetworkReachabilityManager.swift */; };
 		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A51515830AB9FE94E01DF6F48146153 /* StringEncoding+Alamofire.swift */; };
 		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D45A2AF061C99B2355F19EC47243D9 /* Protected.swift */; };
 		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD9F54297FF27309F1F8A34F99417C /* DispatchQueue+Alamofire.swift */; };
-		36524FE70DA10AA851EDD24CE505B837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72312136F76CCB5AC50BCDD37ED4A2 /* SessionDelegate.swift */; };
 		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0440F4381D065FED6264EFBCDB7960 /* MultipartFormData.swift */; };
 		476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
@@ -26,115 +29,167 @@
 		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673CB7AF23C7E1475678C8CCC286CF41 /* Result+Alamofire.swift */; };
 		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4591D5844289F02F52985F30FFDA6BB5 /* Session.swift */; };
 		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8687B00F57762F34D3282826817C5 /* RequestTaskMap.swift */; };
-		6D1055D8C5D3A12E940CD6500D692B66 /* Pods-FipeMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B28F24389EE6A1291293EF9FC8924 /* Pods-FipeMVVM-dummy.m */; };
 		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1741D7ACD43E5D0E9DBE557F396581 /* RequestInterceptor.swift */; };
 		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFB0A067881554C0CF2E83093E1D6 /* AlamofireExtended.swift */; };
 		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845043F6DD76EF451A61A8C4EEB3BF6C /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBC286A9BAE2611EFC71F7C9FB60B8 /* Notifications.swift */; };
 		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197951AB8559109A9F40B71A85C843E /* ResponseSerialization.swift */; };
 		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DAB6EC98A071AAD9A29C41818F346 /* HTTPHeaders.swift */; };
+		926D89A57617D3926EE19F0BF15F7158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC350EEADBAF761D20138C94C4A0086 /* URLConvertible+URLRequestConvertible.swift */; };
-		9CEE9594B4C23BA2F0A78A9B3287DCE7 /* Pods-FipeMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2384B4019713D37EFB72C94B5751076 /* Pods-FipeMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44EFF4AE1CC95C361F6A007EDBD6E7 /* RetryPolicy.swift */; };
 		A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
 		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D233027C8491F55B2473FCDA12389 /* CachedResponseHandler.swift */; };
+		BF53575F89DA82E1141F5B2AA0104998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2B77F50C8E86FDD27C5A573013C07 /* Response.swift */; };
 		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF4837C47DFB74B73C8B82A591E94C /* Alamofire.swift */; };
 		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC11D87B8E53578044EA373E7DE6642 /* Alamofire-dummy.m */; };
 		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB5063650D66E661FD979273F90078 /* MultipartUpload.swift */; };
 		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998E57E5CB536D68D4A97BC1B56E62B8 /* ParameterEncoding.swift */; };
 		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2B90B6F80D8F30747B3E178F5528F /* URLEncodedFormEncoder.swift */; };
+		D3D8D87A3A832264A82CEA1F05B7512F /* Pods-Fipe_MVVM-Fipe_MVVMUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB41978BB5D4192FF1077299572D328 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-dummy.m */; };
 		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062C7841BFC1EEBD8A094A3CA60AEADA /* URLRequest+Alamofire.swift */; };
 		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA36ADD8B0E94CE139C28448821E13 /* AuthenticationInterceptor.swift */; };
+		E174DF4919AD1B20477A23D896071F04 /* Pods-Fipe_MVVMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7B2C9E7EA20ACCF9DA4993E698D7EA /* Pods-Fipe_MVVMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B14ACFFB6A91762B582B46A3466A3F /* Request.swift */; };
 		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20097F794E1A1791AB97EBE230264E61 /* Validation.swift */; };
+		F13C0BCC6EF17C11C853FE0184B409E6 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1427A1BA0A1542B9E6F53B8D5AB296 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C386BD824FE4AD000560950399556 /* URLSessionConfiguration+Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		21A84831AA30247CB47E10A0BFAE06BC /* PBXContainerItemProxy */ = {
+		372AA628065E2997F1650ABA9F3476E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
+		433117AF1587882D77457D2D8C9D5CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		ADA91467C13A200AB40261E3460BDEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8292DBCB79794A862007C493389A76;
+			remoteInfo = "Pods-Fipe_MVVM";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		062C7841BFC1EEBD8A094A3CA60AEADA /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		098AF60D2BFE5A4A124FC28076E35FC0 /* Pods-Fipe_MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fipe_MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		0DEB62B07AB895A3434E614301A755D0 /* Pods-Fipe_MVVMTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fipe_MVVMTests-Info.plist"; sourceTree = "<group>"; };
 		0E0440F4381D065FED6264EFBCDB7960 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		0EC45C560942C5BCAB401419728808D3 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		12145217319CDC37B2C795F5EEF4C867 /* Pods-Fipe_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fipe_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		1F63351AAFF20A5ACDECE8492AA43157 /* Pods-Fipe_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fipe_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20097F794E1A1791AB97EBE230264E61 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		25C8E2EB5219B5AFCAE93AEDF83E006F /* Pods-Fipe_MVVMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fipe_MVVMTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		29EBC286A9BAE2611EFC71F7C9FB60B8 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		2B0F05A3DBDE8E8AD6A8511F035D63D3 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		2D9A7CBD91EB11D29AAA3B665715982F /* Pods-FipeMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FipeMVVM.modulemap"; sourceTree = "<group>"; };
-		2F9D5EE20EA1BE0094844358D3548B3F /* Pods-FipeMVVM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FipeMVVM-Info.plist"; sourceTree = "<group>"; };
+		2BC475C5C72F0449451C4D8845910DF2 /* Pods-Fipe_MVVMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fipe_MVVMTests.modulemap"; sourceTree = "<group>"; };
 		333DAB6EC98A071AAD9A29C41818F346 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		34719DC87070ECE43210352ACFEAE9A2 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests-frameworks.sh"; sourceTree = "<group>"; };
 		349B2325F6647FEE3C9209201FF5D4C2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		401A0C3C3516540407583753D10DEB2B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		4388F96485F322CF010F9CA6AF089C46 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		4577A5B03E048994F642A59EADCDE723 /* Pods-Fipe_MVVMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fipe_MVVMTests-dummy.m"; sourceTree = "<group>"; };
 		4591D5844289F02F52985F30FFDA6BB5 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		4ABD9F54297FF27309F1F8A34F99417C /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		4D3E0E1E34DD4394C6023B622C262222 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		51BB5063650D66E661FD979273F90078 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		51D45A2AF061C99B2355F19EC47243D9 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		5255903ED4EACE6C78E0975D6461AEBE /* Pods_Fipe_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fipe_MVVMTests.framework; path = "Pods-Fipe_MVVMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539745822D70DEFEB63C0C15E6FE3580 /* Pods-Fipe_MVVMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fipe_MVVMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A51515830AB9FE94E01DF6F48146153 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		5BEF4837C47DFB74B73C8B82A591E94C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5C37143211A7BB1BC15D82FF4872DE01 /* Pods-Fipe_MVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fipe_MVVM.modulemap"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F2B90B6F80D8F30747B3E178F5528F /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		64196C10ED39A0EED0AE5F4FF632716B /* Pods-Fipe_MVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fipe_MVVM-dummy.m"; sourceTree = "<group>"; };
 		673CB7AF23C7E1475678C8CCC286CF41 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		6AEB0C06D0FE935CAAC4260020FF6952 /* Pods-Fipe_MVVM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fipe_MVVM-frameworks.sh"; sourceTree = "<group>"; };
+		6DC9925B5CDB452C9B832D6E27EC6E46 /* Pods-Fipe_MVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fipe_MVVM-umbrella.h"; sourceTree = "<group>"; };
 		7197951AB8559109A9F40B71A85C843E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		71CA6E8A1CEB802EA682E8C4F8B85F66 /* Pods_FipeMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FipeMVVM.framework; path = "Pods-FipeMVVM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BFAE4F0928F95479DE70C637654FC5 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		79EB40D0E4136A2EBA646F9A9D0DA652 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		7FD5923CA332B390C898509FD6623872 /* Pods_Fipe_MVVM_Fipe_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fipe_MVVM_Fipe_MVVMUITests.framework; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802136289500630CF875CED948167CD4 /* Pods-Fipe_MVVM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fipe_MVVM-acknowledgements.plist"; sourceTree = "<group>"; };
 		845043F6DD76EF451A61A8C4EEB3BF6C /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		84B14ACFFB6A91762B582B46A3466A3F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		876F4F5D5DA538F51C4D4F27C9F64377 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		8B7B2C9E7EA20ACCF9DA4993E698D7EA /* Pods-Fipe_MVVMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fipe_MVVMTests-umbrella.h"; sourceTree = "<group>"; };
 		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		970C386BD824FE4AD000560950399556 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		998E57E5CB536D68D4A97BC1B56E62B8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		9AC52ED6D677C8CA048399791A2ED595 /* Pods-Fipe_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fipe_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		9C1741D7ACD43E5D0E9DBE557F396581 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		9C44EFF4AE1CC95C361F6A007EDBD6E7 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F843A41A6C86A479A6C738778E3F995 /* Pods-FipeMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FipeMVVM.debug.xcconfig"; sourceTree = "<group>"; };
-		9F905093C93CE04B6FF142C3CDB0455A /* Pods-FipeMVVM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FipeMVVM-acknowledgements.plist"; sourceTree = "<group>"; };
-		A2F3C0FD039B7C50438227DE7C40B44F /* Pods-FipeMVVM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FipeMVVM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1A3D3096B32000FFA4185163F66892E /* Pods-Fipe_MVVM-Fipe_MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2DCAD95964D4536A184542906D84B38 /* Pods-Fipe_MVVM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fipe_MVVM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3F9F8DFBFFF54133B76CC591386BF0F /* Pods-Fipe_MVVM-Fipe_MVVMUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A4153404C4C0A47E701390CEDAB4A093 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		A67CA7875FD3AB2258E64F3A1CF0A770 /* Pods-Fipe_MVVM-Fipe_MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A6F2B77F50C8E86FDD27C5A573013C07 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B080611246BF83F6DC8849F64184B53D /* Pods_Fipe_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fipe_MVVM.framework; path = "Pods-Fipe_MVVM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EBFC4256A48F45E26B860D38479E52 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		B4B8687B00F57762F34D3282826817C5 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		B5DA36ADD8B0E94CE139C28448821E13 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		BCC350EEADBAF761D20138C94C4A0086 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		C0DD6135A3D31A977906CE0F025AC71A /* Pods-FipeMVVM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FipeMVVM-frameworks.sh"; sourceTree = "<group>"; };
-		C74B28F24389EE6A1291293EF9FC8924 /* Pods-FipeMVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FipeMVVM-dummy.m"; sourceTree = "<group>"; };
+		C3DA866F97D966A9AF9AEC6384879E99 /* Pods-Fipe_MVVM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fipe_MVVM-Info.plist"; sourceTree = "<group>"; };
 		D26220434118FCFC30E4850800AC3068 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		D5958084DB89817472AEA5AED178FC18 /* Pods-Fipe_MVVM-Fipe_MVVMUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests.modulemap"; sourceTree = "<group>"; };
 		DA4D233027C8491F55B2473FCDA12389 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		DFC11D87B8E53578044EA373E7DE6642 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		F04AA5EE3ECCECA808F5E9CFB1B6FB3C /* Pods-FipeMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FipeMVVM.release.xcconfig"; sourceTree = "<group>"; };
-		F2384B4019713D37EFB72C94B5751076 /* Pods-FipeMVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FipeMVVM-umbrella.h"; sourceTree = "<group>"; };
+		EA0710E47064B039E3EF67018F2BB5AE /* Pods-Fipe_MVVM-Fipe_MVVMUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests-Info.plist"; sourceTree = "<group>"; };
+		EE1427A1BA0A1542B9E6F53B8D5AB296 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests-umbrella.h"; sourceTree = "<group>"; };
 		F43DFB0A067881554C0CF2E83093E1D6 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		F71BBCEF1586B8C48F6C090283FD70AA /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		FA24B13480173106997D3F6538CDE3CD /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		FAB41978BB5D4192FF1077299572D328 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests-dummy.m"; sourceTree = "<group>"; };
+		FACA6CE8BEF39A23E08A2C2CF4221178 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fipe_MVVM-Fipe_MVVMUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FF72312136F76CCB5AC50BCDD37ED4A2 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A409B8DFE0CAEE1589DD1F5BCCB347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF53575F89DA82E1141F5B2AA0104998 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5AA529DD74A1EA017C346252CF5F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926D89A57617D3926EE19F0BF15F7158 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D795C8AB3DCE7DE5AB1817B688434F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029032F0EDD147F9636323AB061B11F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */,
 				476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBAB44E60E9182F8EFA4ACB84D72C523 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36524FE70DA10AA851EDD24CE505B837 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,21 +204,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3B3E5A6C2823624FEC5DD9E1A8F66283 /* Pods-FipeMVVM */ = {
+		1660788241B4E6D82CCA6E53B5E8D45B /* Pods-Fipe_MVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D9A7CBD91EB11D29AAA3B665715982F /* Pods-FipeMVVM.modulemap */,
-				A2F3C0FD039B7C50438227DE7C40B44F /* Pods-FipeMVVM-acknowledgements.markdown */,
-				9F905093C93CE04B6FF142C3CDB0455A /* Pods-FipeMVVM-acknowledgements.plist */,
-				C74B28F24389EE6A1291293EF9FC8924 /* Pods-FipeMVVM-dummy.m */,
-				C0DD6135A3D31A977906CE0F025AC71A /* Pods-FipeMVVM-frameworks.sh */,
-				2F9D5EE20EA1BE0094844358D3548B3F /* Pods-FipeMVVM-Info.plist */,
-				F2384B4019713D37EFB72C94B5751076 /* Pods-FipeMVVM-umbrella.h */,
-				9F843A41A6C86A479A6C738778E3F995 /* Pods-FipeMVVM.debug.xcconfig */,
-				F04AA5EE3ECCECA808F5E9CFB1B6FB3C /* Pods-FipeMVVM.release.xcconfig */,
+				2BC475C5C72F0449451C4D8845910DF2 /* Pods-Fipe_MVVMTests.modulemap */,
+				539745822D70DEFEB63C0C15E6FE3580 /* Pods-Fipe_MVVMTests-acknowledgements.markdown */,
+				25C8E2EB5219B5AFCAE93AEDF83E006F /* Pods-Fipe_MVVMTests-acknowledgements.plist */,
+				4577A5B03E048994F642A59EADCDE723 /* Pods-Fipe_MVVMTests-dummy.m */,
+				0DEB62B07AB895A3434E614301A755D0 /* Pods-Fipe_MVVMTests-Info.plist */,
+				8B7B2C9E7EA20ACCF9DA4993E698D7EA /* Pods-Fipe_MVVMTests-umbrella.h */,
+				1F63351AAFF20A5ACDECE8492AA43157 /* Pods-Fipe_MVVMTests.debug.xcconfig */,
+				098AF60D2BFE5A4A124FC28076E35FC0 /* Pods-Fipe_MVVMTests.release.xcconfig */,
 			);
-			name = "Pods-FipeMVVM";
-			path = "Target Support Files/Pods-FipeMVVM";
+			name = "Pods-Fipe_MVVMTests";
+			path = "Target Support Files/Pods-Fipe_MVVMTests";
 			sourceTree = "<group>";
 		};
 		5A6F22EC0F5633257B85B6E660A2165F /* Support Files */ = {
@@ -234,12 +288,48 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		B97A4FD7372202D511A988BD573FC833 /* Targets Support Files */ = {
+		71FE0AB5D5B1DEAB9ED4554B5EC0A657 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B3E5A6C2823624FEC5DD9E1A8F66283 /* Pods-FipeMVVM */,
+				C2343488EB35D013AF981D8E97CD99F6 /* Pods-Fipe_MVVM */,
+				BD8485E18ABFD053164263DF1A39FE72 /* Pods-Fipe_MVVM-Fipe_MVVMUITests */,
+				1660788241B4E6D82CCA6E53B5E8D45B /* Pods-Fipe_MVVMTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BD8485E18ABFD053164263DF1A39FE72 /* Pods-Fipe_MVVM-Fipe_MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5958084DB89817472AEA5AED178FC18 /* Pods-Fipe_MVVM-Fipe_MVVMUITests.modulemap */,
+				A3F9F8DFBFFF54133B76CC591386BF0F /* Pods-Fipe_MVVM-Fipe_MVVMUITests-acknowledgements.markdown */,
+				FACA6CE8BEF39A23E08A2C2CF4221178 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-acknowledgements.plist */,
+				FAB41978BB5D4192FF1077299572D328 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-dummy.m */,
+				34719DC87070ECE43210352ACFEAE9A2 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-frameworks.sh */,
+				EA0710E47064B039E3EF67018F2BB5AE /* Pods-Fipe_MVVM-Fipe_MVVMUITests-Info.plist */,
+				EE1427A1BA0A1542B9E6F53B8D5AB296 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-umbrella.h */,
+				A1A3D3096B32000FFA4185163F66892E /* Pods-Fipe_MVVM-Fipe_MVVMUITests.debug.xcconfig */,
+				A67CA7875FD3AB2258E64F3A1CF0A770 /* Pods-Fipe_MVVM-Fipe_MVVMUITests.release.xcconfig */,
+			);
+			name = "Pods-Fipe_MVVM-Fipe_MVVMUITests";
+			path = "Target Support Files/Pods-Fipe_MVVM-Fipe_MVVMUITests";
+			sourceTree = "<group>";
+		};
+		C2343488EB35D013AF981D8E97CD99F6 /* Pods-Fipe_MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5C37143211A7BB1BC15D82FF4872DE01 /* Pods-Fipe_MVVM.modulemap */,
+				A2DCAD95964D4536A184542906D84B38 /* Pods-Fipe_MVVM-acknowledgements.markdown */,
+				802136289500630CF875CED948167CD4 /* Pods-Fipe_MVVM-acknowledgements.plist */,
+				64196C10ED39A0EED0AE5F4FF632716B /* Pods-Fipe_MVVM-dummy.m */,
+				6AEB0C06D0FE935CAAC4260020FF6952 /* Pods-Fipe_MVVM-frameworks.sh */,
+				C3DA866F97D966A9AF9AEC6384879E99 /* Pods-Fipe_MVVM-Info.plist */,
+				6DC9925B5CDB452C9B832D6E27EC6E46 /* Pods-Fipe_MVVM-umbrella.h */,
+				9AC52ED6D677C8CA048399791A2ED595 /* Pods-Fipe_MVVM.debug.xcconfig */,
+				12145217319CDC37B2C795F5EEF4C867 /* Pods-Fipe_MVVM.release.xcconfig */,
+			);
+			name = "Pods-Fipe_MVVM";
+			path = "Target Support Files/Pods-Fipe_MVVM";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -248,8 +338,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				D6535AE6278B88B90F3A376D1347504F /* Pods */,
-				DCCB532EAE9CE2BB474390393DFF7AC5 /* Products */,
-				B97A4FD7372202D511A988BD573FC833 /* Targets Support Files */,
+				DD0FB709E292A297E71FEBC79282FE07 /* Products */,
+				71FE0AB5D5B1DEAB9ED4554B5EC0A657 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,11 +351,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DCCB532EAE9CE2BB474390393DFF7AC5 /* Products */ = {
+		DD0FB709E292A297E71FEBC79282FE07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				71CA6E8A1CEB802EA682E8C4F8B85F66 /* Pods_FipeMVVM.framework */,
+				B080611246BF83F6DC8849F64184B53D /* Pods_Fipe_MVVM.framework */,
+				7FD5923CA332B390C898509FD6623872 /* Pods_Fipe_MVVM_Fipe_MVVMUITests.framework */,
+				5255903ED4EACE6C78E0975D6461AEBE /* Pods_Fipe_MVVMTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,6 +365,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B47AB1E8655AF98C7AAF2C7F4FC623A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E174DF4919AD1B20477A23D896071F04 /* Pods-Fipe_MVVMTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8CE84A7F577BB9576F5367D0F6C453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A90EB0D06BFE35631B6332013634922 /* Pods-Fipe_MVVM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8070B01910C64B9AFD0DB550EDE38D6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,34 +389,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C195FAA6B2497B9E6FCBF7D470AC18A7 /* Headers */ = {
+		AA29174F5B63320F676334160AF6C614 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CEE9594B4C23BA2F0A78A9B3287DCE7 /* Pods-FipeMVVM-umbrella.h in Headers */,
+				F13C0BCC6EF17C11C853FE0184B409E6 /* Pods-Fipe_MVVM-Fipe_MVVMUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A2EA61F7F52594942AF94ED4346803B /* Pods-FipeMVVM */ = {
+		8E8292DBCB79794A862007C493389A76 /* Pods-Fipe_MVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57DF04F6E5843979F1CAD1A70980FB62 /* Build configuration list for PBXNativeTarget "Pods-FipeMVVM" */;
+			buildConfigurationList = 96AB20C6F786CAE9A329D0A7842D4116 /* Build configuration list for PBXNativeTarget "Pods-Fipe_MVVM" */;
 			buildPhases = (
-				C195FAA6B2497B9E6FCBF7D470AC18A7 /* Headers */,
-				986E59E13A8F4D91E165C3334CA1EC10 /* Sources */,
-				BBAB44E60E9182F8EFA4ACB84D72C523 /* Frameworks */,
-				3956A29A39D45E0E2304ECB197734A9C /* Resources */,
+				5C8CE84A7F577BB9576F5367D0F6C453 /* Headers */,
+				438746B108C0271913E8438B8CB6F902 /* Sources */,
+				0A409B8DFE0CAEE1589DD1F5BCCB347D /* Frameworks */,
+				518B138072C86EA3F0CC391E3E2AC5D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9657F5427ECA43AF4F244E1CC9A89A41 /* PBXTargetDependency */,
+				DEFE9A45BCDBDD849320BFE7AD28C699 /* PBXTargetDependency */,
 			);
-			name = "Pods-FipeMVVM";
-			productName = "Pods-FipeMVVM";
-			productReference = 71CA6E8A1CEB802EA682E8C4F8B85F66 /* Pods_FipeMVVM.framework */;
+			name = "Pods-Fipe_MVVM";
+			productName = "Pods-Fipe_MVVM";
+			productReference = B080611246BF83F6DC8849F64184B53D /* Pods_Fipe_MVVM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0D4FD48F0C23E09BF10976590520D35 /* Pods-Fipe_MVVM-Fipe_MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EF72098B3C23B09247E0BC8F02F83C /* Build configuration list for PBXNativeTarget "Pods-Fipe_MVVM-Fipe_MVVMUITests" */;
+			buildPhases = (
+				AA29174F5B63320F676334160AF6C614 /* Headers */,
+				243CFE6CA2CCF7D5E8F05F462DA740AE /* Sources */,
+				1C5AA529DD74A1EA017C346252CF5F3F /* Frameworks */,
+				7473D82070A8A46D47C12301CB69B752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78056EED325095E7DC22A8B3F692B4FC /* PBXTargetDependency */,
+			);
+			name = "Pods-Fipe_MVVM-Fipe_MVVMUITests";
+			productName = "Pods-Fipe_MVVM-Fipe_MVVMUITests";
+			productReference = 7FD5923CA332B390C898509FD6623872 /* Pods_Fipe_MVVM_Fipe_MVVMUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C16DD0EC2072BBDBE71BC325948C601B /* Pods-Fipe_MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDD37CFE09A1905B337FDEBA2FBE83E /* Build configuration list for PBXNativeTarget "Pods-Fipe_MVVMTests" */;
+			buildPhases = (
+				0B47AB1E8655AF98C7AAF2C7F4FC623A /* Headers */,
+				73787A244120AE1506864DAE7353C6B4 /* Sources */,
+				6D795C8AB3DCE7DE5AB1817B688434F7 /* Frameworks */,
+				9070E1EF17F0918B9AFA4BD66EC105DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6763AB4AD8078A9181839394BE2662 /* PBXTargetDependency */,
+			);
+			name = "Pods-Fipe_MVVMTests";
+			productName = "Pods-Fipe_MVVMTests";
+			productReference = 5255903ED4EACE6C78E0975D6461AEBE /* Pods_Fipe_MVVMTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -347,18 +493,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DCCB532EAE9CE2BB474390393DFF7AC5 /* Products */;
+			productRefGroup = DD0FB709E292A297E71FEBC79282FE07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
-				1A2EA61F7F52594942AF94ED4346803B /* Pods-FipeMVVM */,
+				8E8292DBCB79794A862007C493389A76 /* Pods-Fipe_MVVM */,
+				C0D4FD48F0C23E09BF10976590520D35 /* Pods-Fipe_MVVM-Fipe_MVVMUITests */,
+				C16DD0EC2072BBDBE71BC325948C601B /* Pods-Fipe_MVVMTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3956A29A39D45E0E2304ECB197734A9C /* Resources */ = {
+		518B138072C86EA3F0CC391E3E2AC5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7473D82070A8A46D47C12301CB69B752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9070E1EF17F0918B9AFA4BD66EC105DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +537,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		243CFE6CA2CCF7D5E8F05F462DA740AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D8D87A3A832264A82CEA1F05B7512F /* Pods-Fipe_MVVM-Fipe_MVVMUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,22 +588,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		986E59E13A8F4D91E165C3334CA1EC10 /* Sources */ = {
+		438746B108C0271913E8438B8CB6F902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1055D8C5D3A12E940CD6500D692B66 /* Pods-FipeMVVM-dummy.m in Sources */,
+				10D56592D36B34937ED7F5BB679B4752 /* Pods-Fipe_MVVM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73787A244120AE1506864DAE7353C6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F81AFFF4A87F9E96D42A330505DEE /* Pods-Fipe_MVVMTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9657F5427ECA43AF4F244E1CC9A89A41 /* PBXTargetDependency */ = {
+		3C6763AB4AD8078A9181839394BE2662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fipe_MVVM";
+			target = 8E8292DBCB79794A862007C493389A76 /* Pods-Fipe_MVVM */;
+			targetProxy = ADA91467C13A200AB40261E3460BDEC2 /* PBXContainerItemProxy */;
+		};
+		78056EED325095E7DC22A8B3F692B4FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 21A84831AA30247CB47E10A0BFAE06BC /* PBXContainerItemProxy */;
+			targetProxy = 372AA628065E2997F1650ABA9F3476E7 /* PBXContainerItemProxy */;
+		};
+		DEFE9A45BCDBDD849320BFE7AD28C699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 433117AF1587882D77457D2D8C9D5CDE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -467,6 +657,43 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FE1E6F28904E1C089396CAA53B84D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A3D3096B32000FFA4185163F66892E /* Pods-Fipe_MVVM-Fipe_MVVMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fipe_MVVM-Fipe_MVVMUITests/Pods-Fipe_MVVM-Fipe_MVVMUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fipe_MVVM-Fipe_MVVMUITests/Pods-Fipe_MVVM-Fipe_MVVMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -535,6 +762,43 @@
 			};
 			name = Release;
 		};
+		5B8E1220392389C20C5BD9E5A422C569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC52ED6D677C8CA048399791A2ED595 /* Pods-Fipe_MVVM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fipe_MVVM/Pods-Fipe_MVVM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fipe_MVVM/Pods-Fipe_MVVM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -601,9 +865,9 @@
 			};
 			name = Debug;
 		};
-		9966473B853ADE97B2FBA3D6CADE7D63 /* Debug */ = {
+		70952A9107E4E5163BEBEA55D459B240 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F843A41A6C86A479A6C738778E3F995 /* Pods-FipeMVVM.debug.xcconfig */;
+			baseConfigurationReference = 12145217319CDC37B2C795F5EEF4C867 /* Pods-Fipe_MVVM.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -615,7 +879,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FipeMVVM/Pods-FipeMVVM-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fipe_MVVM/Pods-Fipe_MVVM-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,7 +888,45 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FipeMVVM/Pods-FipeMVVM.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Fipe_MVVM/Pods-Fipe_MVVM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8652C5FA00BDCD3C60C64CD9655BC8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F63351AAFF20A5ACDECE8492AA43157 /* Pods-Fipe_MVVMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fipe_MVVMTests/Pods-Fipe_MVVMTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fipe_MVVMTests/Pods-Fipe_MVVMTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -674,9 +976,9 @@
 			};
 			name = Release;
 		};
-		D83A87B607AB9B9C8A559CFBDB47B3B4 /* Release */ = {
+		D7B845147412B99201ADEDCE589A3DCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F04AA5EE3ECCECA808F5E9CFB1B6FB3C /* Pods-FipeMVVM.release.xcconfig */;
+			baseConfigurationReference = A67CA7875FD3AB2258E64F3A1CF0A770 /* Pods-Fipe_MVVM-Fipe_MVVMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -688,7 +990,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FipeMVVM/Pods-FipeMVVM-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fipe_MVVM-Fipe_MVVMUITests/Pods-Fipe_MVVM-Fipe_MVVMUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -697,7 +999,45 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FipeMVVM/Pods-FipeMVVM.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Fipe_MVVM-Fipe_MVVMUITests/Pods-Fipe_MVVM-Fipe_MVVMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8130F8EC9162754EB93FABA08D70515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098AF60D2BFE5A4A124FC28076E35FC0 /* Pods-Fipe_MVVMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fipe_MVVMTests/Pods-Fipe_MVVMTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fipe_MVVMTests/Pods-Fipe_MVVMTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -724,20 +1064,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57DF04F6E5843979F1CAD1A70980FB62 /* Build configuration list for PBXNativeTarget "Pods-FipeMVVM" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9966473B853ADE97B2FBA3D6CADE7D63 /* Debug */,
-				D83A87B607AB9B9C8A559CFBDB47B3B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */,
 				9B66E952E27F29569285AB82461A2F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AB20C6F786CAE9A329D0A7842D4116 /* Build configuration list for PBXNativeTarget "Pods-Fipe_MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8E1220392389C20C5BD9E5A422C569 /* Debug */,
+				70952A9107E4E5163BEBEA55D459B240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EF72098B3C23B09247E0BC8F02F83C /* Build configuration list for PBXNativeTarget "Pods-Fipe_MVVM-Fipe_MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE1E6F28904E1C089396CAA53B84D41 /* Debug */,
+				D7B845147412B99201ADEDCE589A3DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDD37CFE09A1905B337FDEBA2FBE83E /* Build configuration list for PBXNativeTarget "Pods-Fipe_MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8652C5FA00BDCD3C60C64CD9655BC8DC /* Debug */,
+				D8130F8EC9162754EB93FABA08D70515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
